@@ -11,10 +11,7 @@
       "name": "ux-designer-plugin",
       "description": "UI/UX 시니어 디자이너를 위한 Claude Code 플러그인 — 디자인 리뷰, 접근성 검사, 디자인 시스템 관리 자동화",
       "category": "design",
-      "source": {
-        "source": "github",
-        "repo": "fricom/yun"
-      },
+      "source": ".",
       "homepage": "https://github.com/fricom/yun"
     }
   ]
