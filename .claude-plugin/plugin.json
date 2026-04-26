@@ -1,0 +1,27 @@
+{
+  "name": "ux-designer-plugin",
+  "version": "1.1.0",
+  "description": "UI/UX 시니어 디자이너를 위한 Claude Code 플러그인 — 디자인 리뷰, 접근성 검사, 디자인 시스템 관리 자동화",
+  "author": "yunhye",
+  "email": "fricomlee@gmail.com",
+  "license": "MIT",
+  "claude": {
+    "min_version": "1.0.0"
+  },
+  "agents": [
+    "agents/review.md",
+    "agents/a11y.md",
+    "agents/specs.md",
+    "agents/critique.md",
+    "agents/audit.md",
+    "agents/copy.md"
+  ],
+  "commands": [
+    "commands/review.md",
+    "commands/a11y.md",
+    "commands/specs.md",
+    "commands/critique.md",
+    "commands/audit.md",
+    "commands/copy.md"
+  ]
+}
